@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landingpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Deadpool</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Deadpool - A Última Aventura</h1>
+            <p class="lead">Prepare-se para uma jornada épica com o anti-herói mais irreverente dos quadrinhos!</p>
+            <a href="#about" class="btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <h2>Sobre Deadpool</h2>
+                    <p>Deadpool é um anti-herói da Marvel Comics conhecido por seu comportamento irreverente e habilidades excepcionais em combate. Ele é conhecido por quebrar a quarta parede e seu humor sarcástico. Em sua última aventura, ele enfrenta desafios ainda maiores enquanto continua sua luta contra o crime com um estilo único.</p>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <img src="https://i.pinimg.com/originals/95/45/4a/95454a0bfb23e0ef73a1533f13c4c980.jpg" alt="Deadpool" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <img src="https://sm.ign.com/t/ign_br/review/d/deadpool-r/deadpool-review_577q.1200.jpg" alt="Deadpool Action" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Galeria</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="https://wallpapercat.com/w/full/c/e/0/51723-1920x1080-desktop-1080p-deadpool-wallpaper.jpg" alt="Imagem 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/785/615/767/deadpool-cable-domino-neena-thurman-psylocke-wallpaper-preview.jpg" alt="Imagem 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0Bnsa-boOjd_eGG6u_3LcGf59pnP8pfETg&s" alt="Imagem 3" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Deadpool. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
